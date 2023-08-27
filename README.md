@@ -9,10 +9,10 @@ brew tap armcord/armcord
 
 install with: 
 ```
-brew install armcord
+brew install --cask armcord
 ```
 
 uninstall with:
 ```
-brew uninstall armcord
+brew uninstall --cask armcord
 ```
