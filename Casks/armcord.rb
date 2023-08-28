@@ -16,6 +16,11 @@ intel: "1825666f20aa3406b14b405d083d587676f9898d4c55de5353804a8969163459"
 
   app "armcord.app"
 
+  postflight do
+    `codesign --force --deep --sign - "#{appdir}/webcord.app"`
+    `xattr -r -d com.apple.quarantine "#{appdir}/webcord.app"`
+  end
+
   zap trash: [
     "~/Desktop/armcord",
     "~/Library/Application Support/ArmCord",
