@@ -4,11 +4,11 @@ cask "armcord" do
 
 
   version "3.2.4"
-  sha256 arm: "a246a1559bcdc4c4243c7544fec7968caf6f6415e0eb442a9a2348332de8a04c",
-intel: "1825666f20aa3406b14b405d083d587676f9898d4c55de5353804a8969163459"
+  sha256 arm: "37d1d694912f18c32a2db63111fa969fcfbce6c8e0a25811fde1daee5f77d100 ",
+intel: "b078b8370a399a7aead2ceac12e4fd9ce2ab2e592ab2db83791943d08f506b16"
 
 
-  url "https://github.com/ArmCord/ArmCord/releases/download/v#{version}/ArmCord-#{version}#{arch}.dmg",
+  url "https://github.com/ArmCord/ArmCord/releases/download/v#{version}-libwebp/ArmCord-#{version}#{arch}.dmg",
       verified: "github.com/ArmCord/ArmCord/"
   name "armcord"
   desc "Custom lightweight Discord client designed to enhance your experience"
