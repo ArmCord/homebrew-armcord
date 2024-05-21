@@ -3,9 +3,9 @@ cask "armcord" do
   arch arm: "-arm64", intel: ""
 
 
-  version "3.2.6"
-  sha256 arm: "f90a9a3317a1e8232201fd7bf13d029021e7796dd8a6c28c2ffeb58cae24f4f9",
-intel: "b3bee4e907ad31b9ccc23fb4ff2c30bc4c689014e15ddeb25820ce7e5a73b386"
+  version "3.2.7"
+  sha256 arm: "805a27b3b4d410ebbcdccdcf6ce3856ca11528171860dfbe027d7bd9ce15541f",
+intel: "66e7c858ad3b20e9906c122d5a918a1b51e0ee7ab907ccf88b1ae25755e79495"
 
 
   url "https://github.com/ArmCord/ArmCord/releases/download/v#{version}/ArmCord-#{version}#{arch}.dmg",
