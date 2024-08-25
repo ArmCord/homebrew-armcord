@@ -8,7 +8,7 @@ cask "armcord" do
 intel: "c8e88773707cc4427ac46104bfb4d4e4d89b8d628f8cc13ecc2dc05784c2ddbd"
 
 
-  url "https://github.com/ArmCord/ArmCord/releases/download/v#{version}/ArmCord-#{version}#{arch}.dmg",
+  url "https://github.com/ArmCord/ArmCord/releases/download/v#{version}/ArmCord-#{version}-mac-#{arch}.dmg",
       verified: "github.com/ArmCord/ArmCord/"
   name "armcord"
   desc "Custom lightweight Discord client designed to enhance your experience"
