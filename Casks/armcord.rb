@@ -1,11 +1,11 @@
 cask "armcord" do
 
-  arch arm: "-arm64", intel: ""
+  arch arm: "-arm64", intel: "-x64"
 
 
-  version "3.2.8"
-  sha256 arm: "c7e10df830b8a49cf8f79e5b9479d52e8a6902359526607956096e6b980dce3a",
-intel: "b5e1e6b0283d985f7fbc072ab1c518bebfe5760b60d82fe0d3ab21fc340185a6"
+  version "3.3.0"
+  sha256 arm: "d339f16df619018520e484bec1dffddbc571b5d3688090dd9fb17ea32367322e",
+intel: "c8e88773707cc4427ac46104bfb4d4e4d89b8d628f8cc13ecc2dc05784c2ddbd"
 
 
   url "https://github.com/ArmCord/ArmCord/releases/download/v#{version}/ArmCord-#{version}#{arch}.dmg",
